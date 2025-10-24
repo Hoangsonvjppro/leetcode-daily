@@ -1,6 +1,6 @@
 # LeetCode Daily – Python
 
-[![CI](https://github.com/{YOUR_GH_USERNAME}/{REPO_NAME}/actions/workflows/python-ci.yml/badge.svg)](https://github.com/{YOUR_GH_USERNAME}/{REPO_NAME}/actions)
+[![CI](https://github.com/Hoangsonvjppro/leetcode-daily/actions/workflows/python-ci.yml/badge.svg)](https://github.com/Hoangsonvjppro/leetcode-daily/actions)
 
 > **Mục tiêu:** Luyện thuật toán mỗi ngày theo chuẩn “backend chuyên nghiệp”: có test, có CI, repo sạch, dễ rà soát và tối ưu định kỳ.
 
@@ -79,7 +79,7 @@ python scripts/new.py "two-sum" \
 - **Test:** `pytest -q` – chạy tất cả bài, đảm bảo tối ưu không phá logic cũ.
 - **Lint/Format:** `ruff`, `black` – giữ code sạch và thống nhất.
 - **CI (GitHub Actions):** tự động lint + format-check + test mỗi lần push/PR.  
-  > Sửa `{YOUR_GH_USERNAME}` và `{REPO_NAME}` trong badge ở đầu file sau khi push repo.
+> Nếu fork repo này, đừng quên cập nhật badge CI ở đầu file cho đúng owner/repo mới.
 
 ---
 
