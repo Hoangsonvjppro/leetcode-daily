@@ -1,0 +1,4 @@
+{
+  "started": "$(Get-Date -Format yyyy-MM-dd)",
+  "problems": []
+}
