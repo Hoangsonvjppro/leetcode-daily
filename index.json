@@ -1,4 +1,23 @@
 {
   "started": "$(Get-Date -Format yyyy-MM-dd)",
-  "problems": []
+  "problems": [
+    {
+      "date": "2025-10-25",
+      "year": "2025",
+      "month": "10",
+      "id": "1",
+      "title": "two-sum",
+      "slug": "two-sum",
+      "file": "problems/y2025/m10/lc1_two_sum.py",
+      "test": "tests/test_two_sum.py",
+      "tags": [
+        "array",
+        "hashmap"
+      ],
+      "difficulty": "easy",
+      "link": "https://leetcode.com/problems/two-sum/description/",
+      "status": "done",
+      "opt_rounds": 0
+    }
+  ]
 }
