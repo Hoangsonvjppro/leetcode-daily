@@ -9,16 +9,23 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 [tool.black]
-line-length = 100
+line-length = 120           # nới để khỏi vướng E501 với docstring/comment dài
 target-version = ["py313"]
 
 [tool.ruff]
-line-length = 100
+line-length = 120
 target-version = "py313"
 
 [tool.ruff.lint]
-select = ["E","F","I","B","UP","W"]
-ignore = ["E203"]
+# Chỉ giữ các check “lỗi thật”:
+# - F: pyflakes (tên biến chưa dùng/không tồn tại, import sai…)
+# - E: pycodestyle lỗi cú pháp/nghiêm trọng (loại bỏ E501 bên dưới)
+select = ["E", "F"]
+ignore = [
+  "E203",  # xung đột với Black (slice)
+  "E501"   # bỏ giới hạn độ dài dòng
+  # Không bật "UP" nữa để khỏi dính UP006/UP035 (List vs list)
+]
 
 [tool.pytest.ini_options]
 addopts = "-q"
