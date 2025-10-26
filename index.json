@@ -18,6 +18,25 @@
       "link": "https://leetcode.com/problems/two-sum/description/",
       "status": "done",
       "opt_rounds": 0
+    },
+    {
+      "date": "2025-10-26",
+      "year": "2025",
+      "month": "10",
+      "id": "2",
+      "title": "add-two-numbers",
+      "slug": "add-two-numbers",
+      "file": "problems/y2025/m10/lc2_add_two_numbers.py",
+      "test": "tests/test_add_two_numbers.py",
+      "tags": [
+        "LinkedList",
+        "Math",
+        "Recursion"
+      ],
+      "difficulty": "medium",
+      "link": "https://leetcode.com/problems/add-two-numbers/description/",
+      "status": "done",
+      "opt_rounds": 0
     }
   ]
 }
